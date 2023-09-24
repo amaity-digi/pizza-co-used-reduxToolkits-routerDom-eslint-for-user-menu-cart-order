@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 
 function CartOverView() {
   return (
@@ -6,7 +7,7 @@ function CartOverView() {
             <span>23 Pizzas</span>
             <span>$7</span>
         </p>
-        <a href="/">Open Cart &rarr;</a>
+        <Link to="/">Open Cart &rarr;</Link>
     </div>
   )
 }
