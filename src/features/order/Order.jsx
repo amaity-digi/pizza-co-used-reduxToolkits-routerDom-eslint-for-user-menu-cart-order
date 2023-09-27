@@ -27,6 +27,5 @@ export async function orderLoader({params}){
    const order = await getOrder(params.orderId);
    return order;
 }
-console.log(orderLoader(1));
 
 export default Order
